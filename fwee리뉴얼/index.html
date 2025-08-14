@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fwee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.onload = () => {
+            var swiper = new Swiper(".mySwiper", {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: true,
+                },
+                loop: true,
+            });
+
+            var innerSwiper02 = new Swiper('.swiper-container', {
+                loop: true,
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                centeredSlides: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+            });
+
+            var swiper = new Swiper(".lookbook", {
+                spaceBetween: 30,
+                effect: "fade",
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        }
+    </script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header_wrap">
+            <div class="top">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">올영 선런칭 전, 볼류밍틴트 10,900원에 GET할 기회🤍</div>
+                        <div class="swiper-slide">카카오톡 플러스 친구하고 1000원 쿠폰 받아가세요~🤍 </div>
+                        <div class="swiper-slide">친구 초대하면 최대 4,000원 쿠폰을 받을 수 있어요🤍</div>
+                    </div><!-- swiper-wrappe end -->
+                </div><!-- swiper mySwiper end -->
+            </div><!-- top end -->
+            <div class="header">
+                <div class="menu">
+                    <img src="img/메뉴아이콘.png" alt="">
+                    <a href="#" class="logo">
+                        <img src="img/fwee.png" alt="">
+                    </a>
+                    <div class="item">
+                        <div class="text">
+                            <p><a href="#">KO</a></p>
+                            <span><a href="#">Login</a></span>
+                        </div><!-- text end -->
+                        <img src="img/검색아이콘.png" alt="">
+                        <img src="img/찜아이콘.png" alt="">
+                        <img src="img/장바구니아이콘.png" alt="">
+                    </div><!-- item end -->
+                </div><!-- menu end -->
+            </div><!--header end  -->
+        </div><!-- "header_wrap -->
+
+        <section class="visual">
+            <div class=" swiper swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/배너1_.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img/배너2.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img/배너 3.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <img src="img/배너4.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+                </div><!-- swiper-wrapper -->
+            </div><!-- swiper swiper-container -->
+        </section>
+
+        <section class="banner">
+            <div class="item">
+                <img src="img/베이스 (1).png" alt="">
+                <a href="#">BASE →</a>
+            </div><!-- item end -->
+
+            <div class="item">
+                <img src="img/립.png" alt="">
+                <a href="#">LIP →</a>
+            </div><!-- item end -->
+
+            <div class="item">
+                <img src="img/아이.png" alt="">
+                <a href="#">EYE →</a>
+            </div><!-- item end -->
+        </section><!-- banner end -->
+
+        <section class="look_book">
+            <div class="title">
+                <h1>Look Book</h1>
+                <h3>사진 속 무드 그대로 퓌를 느껴봐!</h3>
+                <p>하나씩 넘기다 보면, 어느새 퓌의 무드에 퐁당 빠져들지도 몰라요.</p>
+            </div><!--title end  -->
+            <div class="swiper lookbook">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image_box">
+                            <img src="img/Group 55.png" alt="">
+                        </div><!-- image_box end -->
+                        <div class="list">
+                            <div class="item">
+                                <div class="item_img"><img src="img/f볼류밍.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 3D 볼류밍 글로즈(17colors)</p>
+                                    <span>B10 요거트 70%</span>
+                                    <div class="number">
+                                        <p>18,000원</p>
+                                        <span>13,500원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+
+                            <div class="item">
+                                <div class="item_img"><img src="img/f아이팔레트.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 포켓 아이팔레트 (5 Colors) </p>
+                                    <span>EP03 스트로베리휩</span>
+                                    <div class="number">
+                                        <p>24,000원</p>
+                                        <span>19,200원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+
+                            <div class="item">
+                                <div class="item_img"><img src="img/f치크팔레트.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>포켓 치크팔레트 (4 colors)</p>
+                                    <span>CP01 스트로베리&레몬</span>
+                                    <div class="number">
+                                        <p>26,000원</p>
+                                        <span>20,800원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+                        </div><!-- list end -->
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <div class="image_box">
+                            <img src="img/Group 56.png" alt="">
+                        </div><!-- image_box end -->
+                        <div class="list">
+                            <div class="item">
+                                <div class="item_img"><img src="img/f애그핏.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 쿠션 에그핏 커버</p>
+                                    <span>1.5 피치</span>
+                                    <div class="number">
+                                        <p>28,000원</p>
+                                        <span>21,000원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+
+                            <div class="item">
+                                <div class="item_img"><img src="img/f모어무드.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 모어무드 아이팔레트 (6 Colors) </p>
+                                    <span>01 모어 댄 누드</span>
+                                    <div class="number">
+                                        <p>35,000원</p>
+                                        <span>24,500원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+
+                            <div class="item">
+                                <div class="item_img"><img src="img/f블러리푸딩팟.png" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 립앤치크 블러리 푸딩팟 (35 colors)</p>
+                                    <span>ND04 마이</span>
+                                    <div class="number">
+                                        <p>22,000원</p>
+                                        <span>16,500원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+                        </div><!-- list end -->
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <div class="image_box">
+                            <img src="img/Group 57.png" alt="">
+                        </div><!-- image_box end -->
+                        <div class="list">
+                            <div class="item">
+                                <div class="item_img"><img src="img/f스테이핏.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 핑크 옵세션 스테이핏 틴트 (20colors)</p>
+                                    <span>G01 밀크핑크</span>
+                                    <div class="number">
+                                        <p>18,000원</p>
+                                        <span>13,500원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+
+                            <div class="item">
+                                <div class="item_img"><img src="img/f맬로우블러셔.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 멜로우 듀 블러셔 (5 Colors) </p>
+                                    <span>PK01 럽미하이키</span>
+                                    <div class="number">
+                                        <p>22,000원</p>
+                                        <span>16,500원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+
+                            <div class="item">
+                                <div class="item_img"><img src="img/f하이라이트.jpg" alt=""></div>
+                                <div class="text_box">
+                                    <p>퓌 글리츠 스톤 하이라이트 (12 colors)</p>
+                                    <span>HL06 불리스쉘</span>
+                                    <div class="number">
+                                        <p>22,000원</p>
+                                        <span>16,500원</span>
+                                    </div><!-- number end -->
+                                </div><!-- text box end -->
+                            </div><!-- item end -->
+                        </div><!-- list end -->
+
+                    </div><!-- swiper-slide end -->
+
+                </div><!-- swiper-wrapper end -->
+            </div><!-- swiper mySwiper -->
+        </section><!-- look_book end -->
+
+    </div><!-- warp end -->
+</body>
+
+</html>
